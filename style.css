@@ -11,24 +11,29 @@ header,nav,section,aside,footer {
     margin: 10px;
     text-align: center;
     padding: 30px;
+    border: rgb(0, 0, 0) solid 1px;
 }
 section {
     float: left;
     width: 495px;
-    height: 200px;
+    padding: 10px;
 }
 article {
     background: #777;
     color: white;
     padding: 10px;
-    margin: auto;
-    width: 99%;
-    box-sizing: border-box;
+    margin: 20px 5px 5px 5px;
+    /*right: 250px;*/
+    width: 465px;
+    /*box-sizing: border-box;
+    position: absolute;*/
+    border: rgb(0, 0, 0) solid 1px;
 }
 h1 {
     background: #ebebeb;
     color: #777;
     padding: 12px;
+    margin-top: 10px;
 }
 p {
     background: #ebebeb;
